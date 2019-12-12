@@ -32,7 +32,7 @@ a{
   height: calc(100% - 90px);
   overflow: hidden;
 }
-/* main nav */
+/* nav-left */
 .nav-left {
   display: flex;
   flex-direction: column;
@@ -41,6 +41,7 @@ a{
   height: 100%;
   background: #000000;
 }
+/* nav-left sezione logo */
 .nav-left-logo {
   display: flex;
   justify-content: flex-start;
@@ -49,6 +50,11 @@ a{
 }
 .nav-left-logo img {
   height: 70%;
+}
+/* nav-left sezione menu */
+.nav-left-menu{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .nav-left-menu li{
   padding-left: 15px;
@@ -72,19 +78,51 @@ a{
 #nav-left-menu-active a{
   color: #fff;
 }
-/* / regole link attivo nav-left-menu */
-.nav-left-make-playlist{
 
+/* nav-left sezione make-playlist */
+.nav-left-make-playlist h2{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
+.nav-left-make-playlist span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #A3A3A3;
+  margin-right: 5px;
+}
+.nav-left-make-playlist i{
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+/* nav-left sezione playlist */
 .nav-left-playlist {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-  background-color: lime;
 }
-
+.nav-left-playlist li{
+  line-height: 2rem;
+  vertical-align: middle;
+}
+/* nav-left sezione bottom */
 .nav-left-bottom {
   background-color: brown;
+}
+.nav-left-bottom a{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.nav-left-bottom img {
+  height: 30px;
+  width: 30px;
 }
 
 /* main content */
