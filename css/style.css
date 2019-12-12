@@ -108,6 +108,13 @@ a{
   background-color: #A3A3A3;
   margin-right: 5px;
 }
+.nav-left-make-playlist a:hover span{
+  background-color: #fff;
+}
+.nav-left-make-playlist a:hover i{
+  color: #A3A3A3;
+}
+
 .nav-left-make-playlist i{
   color: #fff;
   font-size: 1.3rem;
@@ -209,6 +216,11 @@ a{
   padding: 15px 30px;
   border: 2px solid #fff;
   border-radius: 500px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-call-to-action:hover {
+  transform: scale(1.1);
 }
 
 /* footer */
