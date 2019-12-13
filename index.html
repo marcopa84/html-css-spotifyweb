@@ -16,37 +16,40 @@
         <!-- menu sinistro versione desktop -->
         <section class="nav-left">
           <section class="nav-left-logo">
-            <img src="img/logo.svg" alt="Logo Spotify">
+            <!-- logo versione desktop -->
+            <img src="img/logo.svg" class="hidden-xs" alt="Logo Spotify">
+            <!-- logo versione xs -->
+            <img src="img/logo-small.svg" class="hidden-lg hidden-md hidden-sm visible-xs" alt="Logo Spotify">
           </section>
           <section class="nav-left-menu">
             <ul class="unlisted">
               <li id="nav-left-menu-active">
                 <a href="#" class="link-white">
                   <img src="img/home.svg" alt="Link ad home">
-                  Home
+                  <span class="hidden-xs">Home</span>
                 </a>
               </li>
               <li>
                 <a href="#" class="link-grey">
                   <img src="img/search.svg" alt="Cerca il brano musicale o l'artista di tuo interesse">
-                  Cerca
+                  <span class="hidden-xs">Cerca</span>
                 </a>
               </li>
               <li>
                 <a href="#" class="link-grey">
                   <img src="img/libreria.svg" alt="Accedi alla tua libreria">
-                  La tua librearia
+                  <span class="hidden-xs">La tua librearia</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="nav-left-make-playlist padding-15">
+          <section class="nav-left-make-playlist padding-15 hidden-xs">
             <h2>playlist</h2>
             <a href="#" class="link-grey">
               <span><i class="fas fa-plus"></i></span> Crea Playlist
             </a>
           </section>
-          <section class="nav-left-playlist padding-15">
+          <section class="nav-left-playlist padding-15 hidden-xs">
             <ul class="unlisted">
               <li><a href="#" class="link-grey">Nome Playlist</a></li>
               <li><a href="#" class="link-grey">Nome Playlist</a></li>
@@ -58,17 +61,23 @@
             </ul>
           </section>
           <section class="nav-left-bottom padding-15">
-            <a href="#" class="link-grey">
-              <img src="img/download.svg" class="download-ico" alt="Installa la nostra app">Installa app</a>
-            <hr>
+            <div>
+              <a href="#" class="link-grey">
+                <img src="img/download.svg" class="download-ico" alt="Installa la nostra app">
+              </a>
+              <span class="hidden-xs">
+                <a href="#" class="link-grey">Installa app</a>
+              </span>
+            </div>
+            <hr class="hidden-xs">
             <a href="#" class="profile-container link-white">
               <img src="img/profile.svg" class="profile-container-img" alt="Accedi al tuo profilo">
-              <span>Jonh Doe</span>
+              <span class="hidden-xs">Jonh Doe</span>
             </a>
           </section>
         </section>
         <!-- menu sinistro versione mobile -->
-        <section class="nav-left-xs">
+        <!-- <section class="nav-left-xs">
           <section class="nav-left-xs-top">
             <a href="#">
               <img src="img/logo-small.svg" alt="Logo Spotify">
@@ -91,7 +100,7 @@
               <img src="img/profile.svg" class="profile-container-img" alt="Accedi al tuo Spotify">
             </a>
           </section>
-        </section>
+        </section> -->
         <!-- sezione principale -->
         <section class="main-content">
           <!-- banner call to action -->

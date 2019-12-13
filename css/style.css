@@ -165,7 +165,7 @@ a{
   vertical-align: middle;
   margin-left: 15px;
 }
-/* regole xs menu-left */
+/* regole xs menu-left */ /* DEBUG:  */
 .nav-left-xs {
   display: none;
   flex-direction: column;
@@ -445,12 +445,18 @@ a{
   html{
     font-size: 14px;
   }
+  .hidden-lg{
+    display: none;
+  }
 }
 
 /* mediaquery MD */
 @media screen and (max-width:1200px) {
   html{
     font-size: 14px;
+  }
+  .hidden-md{
+    display: none;
   }
   .main-cell{
     width: calc(100% / 4);
@@ -461,6 +467,9 @@ a{
 @media screen and (max-width:992px) {
   html{
     font-size: 13px;
+  }
+  .hidden-sm{
+    display: none;
   }
   .main-cell{
     width: calc(100% / 2);
@@ -487,15 +496,30 @@ a{
   html{
     font-size: 13px;
   }
-  .nav-left-xs{
-    display: flex;
-  }
-  .nav-left{
+  /* regole generiche sul visible hidden */
+  .hidden-xs{
     display: none;
+    color: red;
   }
+  .visible-xs{
+    display: inherit;
+  }
+  /* menu xs */
+  .nav-left {
+    width: 50px;
+  }
+  .nav-left-logo img {
+    height: 20%;
+  }
+  .profile-container-img {
+    height: 28px;
+    width: 28px;
+    }
+  /* regole call to action xs */
   .call-to-action {
     width: calc(100% - 50px);
   }
+  /* regole main xs */
   .main-content {
     width: calc(100% - 50px);
   }
