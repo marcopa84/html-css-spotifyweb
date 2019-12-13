@@ -442,13 +442,15 @@ a{
 }
 /* mediaquery LG */
 @media screen and (min-width:1200px) {
-
+  html{
+    font-size: 14px;
+  }
 }
 
 /* mediaquery MD */
 @media screen and (max-width:1200px) {
   html{
-    font-size: 15px;
+    font-size: 14px;
   }
   .main-cell{
     width: calc(100% / 4);
@@ -458,7 +460,7 @@ a{
 /* mediaquery SM */
 @media screen and (max-width:992px) {
   html{
-    font-size: 14px;
+    font-size: 13px;
   }
   .main-cell{
     width: calc(100% / 2);
