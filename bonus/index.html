@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- main -->
+      <main class="main">
+        <!-- menu sinistro versione desktop -->
+        <section class="nav-left">
+          <section class="nav-left-logo">
+            <img src="img/logo.svg" alt="Logo Spotify">
+          </section>
+          <section class="nav-left-menu">
+            <ul class="unlisted">
+              <li id="nav-left-menu-active">
+                <a href="#" class="link-white">
+                  <img src="img/home.svg" alt="Link ad home">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="link-grey">
+                  <img src="img/search.svg" alt="Cerca il brano musicale o l'artista di tuo interesse">
+                  Cerca
+                </a>
+              </li>
+              <li>
+                <a href="#" class="link-grey">
+                  <img src="img/libreria.svg" alt="Accedi alla tua libreria">
+                  La tua librearia
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="nav-left-make-playlist padding-15">
+            <h2>playlist</h2>
+            <a href="#" class="link-grey">
+              <span><i class="fas fa-plus"></i></span> Crea Playlist
+            </a>
+          </section>
+          <section class="nav-left-playlist padding-15">
+            <ul class="unlisted">
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+            </ul>
+          </section>
+          <section class="nav-left-bottom padding-15">
+            <a href="#" class="link-grey">
+              <img src="img/download.svg" class="download-ico" alt="Installa la nostra app">Installa app</a>
+            <hr>
+            <a href="#" class="profile-container link-white">
+              <img src="img/profile.svg" class="profile-container-img" alt="Accedi al tuo profilo">
+              <span>Jonh Doe</span>
+            </a>
+          </section>
+        </section>
+        <!-- menu sinistro versione mobile -->
+        <section class="nav-left-xs">
+          <section class="nav-left-xs-top">
+            <a href="#">
+              <img src="img/logo-small.svg" alt="Logo Spotify">
+            </a>
+            <a href="#">
+              <img src="img/home.svg" alt="Home Spotify">
+            </a>
+            <a href="#">
+              <img src="img/search.svg" alt="Cerca su Spotify">
+            </a>
+            <a href="#">
+              <img src="img/libreria.svg" alt="Libreria di Spotify">
+            </a>
+          </section>
+          <section class="nav-left-xs-bottom">
+            <a href="#">
+              <img src="img/download.svg" class="download-ico" alt="Scarica Spotify">
+            </a>
+            <a href="#">
+              <img src="img/profile.svg" class="profile-container-img" alt="Accedi al tuo Spotify">
+            </a>
+          </section>
+        </section>
+        <!-- sezione principale -->
+        <section class="main-content">
+          <!-- banner call to action -->
+          <div class="call-to-action">
+            <a class="btn-call-to-action" href="#">effettua l'upgrade</a>
+          </div>
+          <!-- menu del main -->
+          <div class="main-menu">
+            <ul class="unlisted">
+              <li>
+                <a href="#" class="link-grey">in evidenza</a>
+                <div class="main-menu-active"></div>
+              </li>
+              <li>
+                <a href="#" class="link-grey">podcast</a>
+                <div class="main-menu-hover"></div>
+              </li>
+              <li>
+                <a href="#" class="link-grey">classifiche</a>
+                <div class="main-menu-hover"></div>
+              </li>
+              <li>
+                <a href="#" class="link-grey">generi e mood</a>
+                <div class="main-menu-hover"></div>
+              </li>
+              <li>
+                <a href="#" class="link-grey">nuove uscite</a>
+                <div class="main-menu-hover"></div>
+              </li>
+              <li>
+                <a href="#" class="link-grey">scopri</a>
+                <div class="main-menu-hover"></div>
+              </li>
+            </ul>
+          </div>
+          <!-- prima riga main -->
+          <div class="main-title">
+            <a href="#" class="link-white"><h2>Recently played</h2></a>
+          </div>
+          <div class="main-row">
+            <div class="main-cell">
+              <div class="main-cell-img">
+                <img src="img/metal_lifting.jpg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>heavy metal</h3></a>
+              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+            </div>
+            <div class="main-cell">
+              <div class="main-cell-img">
+                <img src="img/stranger.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>stranger things, vol. 1 (a netflix original series sondtrack)</h3></a>
+              <a href="#" class="link-grey"><h4>kile dixon &amp; micael stein</h4></a>
+            </div>
+            <div class="main-cell hidden-sm">
+              <div class="main-cell-img">
+                <img src="img/aquietplace.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>a quiet place</h3></a>
+              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+            </div>
+            <div class="main-cell hidden-sm">
+              <div class="main-cell-img">
+                <img src="img/split.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>split</h3></a>
+              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+            </div>
+            <div class="main-cell hidden-md hidden-sm">
+              <div class="main-cell-img">
+                <img src="img/cure.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>a cure for welness</h3></a>
+              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+            </div>
+            <div class="main-cell hidden-md hidden-sm">
+              <div class="main-cell-img">
+                <img src="img/sinister.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>sinister</h3></a>
+              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+            </div>
+
+          </div>
+          <!-- seconda riga main -->
+          <div class="main-title">
+            <a href="#" class="link-white"><h2>Creato per John Doe</h2></a>
+            <a href="#" class="link-grey"><p>Pi&ugrave; ascolti pi&ugrave; accurati saranno i suggerimenti.</p></a>
+          </div>
+          <div class="main-row">
+            <div class="main-cell">
+              <div class="main-cell-img">
+                <img src="img/radar.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>release radar</h3></a>
+            </div>
+            <div class="main-cell">
+              <div class="main-cell-img">
+                <img src="img/mixdaily.jpeg" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>daily mix 1</h3></a>
+            </div>
+
+          </div>
+          <!-- terza riga main -->
+          <div class="main-title">
+            <a href="#" class="link-white"><h2>Artisti pi&ugrave; popolari</h2></a>
+            <a href="#" class="link-grey"><p>Pi&ugrave; ascolti pi&ugrave; accurati saranno i suggerimenti.</p></a>
+          </div>
+          <div class="main-row">
+            <div class="main-cell">
+              <div class="main-cell-img">
+                <img src="img/youg.jpeg" class="main-cell-img-round" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>lana del rey</h3></a>
+            </div>
+            <div class="main-cell">
+              <div class="main-cell-img">
+                <img src="img/einaudi.jpeg" class="main-cell-img-round" alt="main song display">
+                <i class="far fa-play-circle"></i>
+              </div>
+              <a href="#" class="link-white"><h3>ludovico einaudi</h3></a>
+            </div>
+
+          </div>
+        </section>
+      </main>
+      <!-- /main -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <!-- parte sinistra del footer -->
+        <section class="footer-left">
+            <img src="img/sinister.jpeg" alt="Icona album in riproduzione">
+          <div class="footer-left-title">
+            <a href="#" class="link-white"><h3>Sinister</h3></a>
+            <a href="#" class="link-grey"><h4>Brano nome</h4></a>
+          </div>
+          <div class="footer-left-btn">
+            <a href="#" class="link-grey"><i class="far fa-heart"></i></a>
+            <a href="#" class="link-grey"><i class="far fa-folder"></i></a>
+          </div>
+        </section>
+        <!-- parte centrale del player -->
+        <section class="footer-center">
+          <div class="footer-center-top">
+            <a href="#" class="link-white"><i class="fas fa-random"></i></a>
+            <a href="#" class="link-white"><i class="fas fa-step-backward"></i></a>
+            <a href="#" class="link-white"><i class="far fa-play-circle  icon-big"></i></a>
+            <a href="#" class="link-white"><i class="fas fa-step-forward"></i></a>
+            <a href="#" class="link-white"><i class="fas fa-redo"></i></a>
+          </div>
+          <div class="footer-center-bottom">
+            <span>0.25</span>
+            <div class="bar-minutes">
+              <div class="div bar-minutes-active"></div>
+              <div class="bar-minutes-active-ball"></div>
+            </div>
+            <span>4.35</span>
+          </div>
+        </section>
+        <!-- parte destra del volume -->
+        <section class="footer-right">
+          <a href="#" class="link-white"><i class="fas fa-bars"></i></a>
+          <a href="#" class="link-white"><i class="fas fa-desktop"></i></a>
+          <a href="#" class="link-white"><i class="fas fa-volume-up"></i></a>
+          <div class="bar-volume">
+            <div class="div bar-volume-active"></div>
+            <div class="bar-volume-active-ball"></div>
+          </div>
+        </section>
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /wrapper -->
+  </body>
+</html>
