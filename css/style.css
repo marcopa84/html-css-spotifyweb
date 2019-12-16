@@ -252,6 +252,7 @@ body {
 }
 .main-title h2{
   margin: 10px 0;
+  text-transform: capitalize;
 }
 .main-cell{
   width: calc(100% / 6);

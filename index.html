@@ -7,6 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <title>Spotify</title>
+    <!-- <script>
+    function myFunction() {
+      document.getElementById('title1').innerHTML='britney spears';
+      document.getElementById('subtitle1').innerHTML='baby one more time';
+    }
+    </script> -->
   </head>
   <body>
     <!-- wrapper -->
@@ -51,7 +57,7 @@
           </section>
           <section class="nav-left-playlist padding-15 hidden-xs">
             <ul class="unlisted">
-              <li><a href="#" class="link-grey">Nome Playlist</a></li>
+              <li><a href="#" onclick="myFunction()" class="link-grey">Britney Spears</a></li>
               <li><a href="#" class="link-grey">Nome Playlist</a></li>
               <li><a href="#" class="link-grey">Nome Playlist</a></li>
               <li><a href="#" class="link-grey">Nome Playlist</a></li>
@@ -113,56 +119,56 @@
           </div>
           <!-- prima riga main -->
           <div class="main-title">
-            <a href="#" class="link-white"><h2>Recently played</h2></a>
+            <a href="#" class="link-white"><h2 id="playlist_title_first_row">Recently played</h2></a>
           </div>
           <div class="main-row">
             <div class="main-cell">
               <div class="main-cell-img">
-                <img src="img/metal_lifting.jpg" alt="main song display">
+                <img src="img/metal_lifting.jpg" alt="main song display" id="first_row_image1">
                 <i class="far fa-play-circle"></i>
               </div>
-              <a href="#" class="link-white"><h3>heavy metal</h3></a>
-              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+              <a href="#" class="link-white"><h3 id="first_row_title1">heavy metal</h3></a>
+              <a href="#" class="link-grey"><h4 id="first_row_subtitle1">subtitle</h4></a>
             </div>
             <div class="main-cell">
               <div class="main-cell-img">
-                <img src="img/stranger.jpeg" alt="main song display">
+                <img src="img/stranger.jpeg" alt="main song display" id="first_row_image2">
                 <i class="far fa-play-circle"></i>
               </div>
-              <a href="#" class="link-white"><h3>stranger things, vol. 1 (a netflix original series sondtrack)</h3></a>
-              <a href="#" class="link-grey"><h4>kile dixon &amp; micael stein</h4></a>
+              <a href="#" class="link-white"><h3 id="first_row_title2">stranger things, vol. 1 (a netflix original series sondtrack)</h3></a>
+              <a href="#" class="link-grey"><h4 id="first_row_subtitle2">kile dixon &amp; micael stein</h4></a>
             </div>
             <div class="main-cell">
               <div class="main-cell-img">
-                <img src="img/aquietplace.jpeg" alt="main song display">
+                <img src="img/aquietplace.jpeg" alt="main song display" id="first_row_image3">
                 <i class="far fa-play-circle"></i>
               </div>
-              <a href="#" class="link-white"><h3>a quiet place</h3></a>
-              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+              <a href="#" class="link-white"><h3 id="first_row_title3">a quiet place</h3></a>
+              <a href="#" class="link-grey"><h4 id="first_row_subtitle3">subtitle</h4></a>
             </div>
             <div class="main-cell">
               <div class="main-cell-img">
-                <img src="img/split.jpeg" alt="main song display">
+                <img src="img/split.jpeg" alt="main song display" id="first_row_image4">
                 <i class="far fa-play-circle"></i>
               </div>
-              <a href="#" class="link-white"><h3>split</h3></a>
-              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+              <a href="#" class="link-white"><h3 id="first_row_title4">split</h3></a>
+              <a href="#" class="link-grey"><h4 id="first_row_subtitle4">subtitle</h4></a>
             </div>
             <div class="main-cell">
               <div class="main-cell-img">
-                <img src="img/cure.jpeg" alt="main song display">
+                <img src="img/cure.jpeg" alt="main song display" id="first_row_image5">
                 <i class="far fa-play-circle"></i>
               </div>
-              <a href="#" class="link-white"><h3>a cure for welness</h3></a>
-              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+              <a href="#" class="link-white"><h3 id="first_row_title5">a cure for welness</h3></a>
+              <a href="#" class="link-grey"><h4 id="first_row_subtitle5">subtitle</h4></a>
             </div>
             <div class="main-cell">
               <div class="main-cell-img">
-                <img src="img/sinister.jpeg" alt="main song display">
+                <img src="img/sinister.jpeg" alt="main song display" id="first_row_image6">
                 <i class="far fa-play-circle"></i>
               </div>
-              <a href="#" class="link-white"><h3>sinister</h3></a>
-              <a href="#" class="link-grey"><h4>subtitle</h4></a>
+              <a href="#" class="link-white"><h3 id="first_row_title6">sinister</h3></a>
+              <a href="#" class="link-grey"><h4 id="first_row_subtitle6">subtitle</h4></a>
             </div>
 
           </div>
@@ -261,5 +267,6 @@
 
     </div>
     <!-- /wrapper -->
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
