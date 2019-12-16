@@ -266,6 +266,7 @@ body {
 .main-cell img{
   width: 100%;
 }
+
 .main-cell-img-round{
   border-radius: 50%;
 }
@@ -289,6 +290,7 @@ body {
 }
 .main-cell:hover i{
   display: block;
+  cursor: pointer;
 }
 
 /* footer */
