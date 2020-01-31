@@ -1,6 +1,6 @@
 function britney_spears() {
   document.getElementById('playlist_title_first_row').innerHTML='the best of britney spears';
-  document.getElementById('first_row_image1').src='img/_britney1.jpg';
+  document.getElementById('first_row_image1').src='img/britney1.jpg';
   document.getElementById('first_row_title1').innerHTML='britney spears';
   document.getElementById('first_row_subtitle1').innerHTML='baby one more time';
   document.getElementById('first_row_image2').src='img/_britney2.jpg';
